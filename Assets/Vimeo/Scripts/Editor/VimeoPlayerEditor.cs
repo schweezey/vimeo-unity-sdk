@@ -104,6 +104,7 @@ namespace Vimeo
                     EditorGUILayout.PropertyField(so.FindProperty("audioSource"));
                     EditorGUILayout.PropertyField(so.FindProperty("muteAudio"), new GUIContent("Mute Audio"));
                     EditorGUILayout.PropertyField(so.FindProperty("autoPlay"));
+                    EditorGUILayout.PropertyField(so.FindProperty("looping"));
                     EditorGUILayout.PropertyField(so.FindProperty("startTime"));
                 }
 

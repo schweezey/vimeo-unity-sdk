@@ -69,7 +69,7 @@ namespace Vimeo.Player
                     videoPlayer.seekCompleted += VideoSeekCompleted;
                     videoPlayer.frameReady += VideoFrameReady;
 
-                    videoPlayer.isLooping = true;
+                    videoPlayer.isLooping = playerSettings.looping;
 
                     block = new MaterialPropertyBlock();
                 } else {
