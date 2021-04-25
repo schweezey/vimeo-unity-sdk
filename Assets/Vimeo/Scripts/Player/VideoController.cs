@@ -71,7 +71,7 @@ namespace Vimeo.Player
                     videoPlayer.frameReady += VideoFrameReady;
                     videoPlayer.loopPointReached += VideoPlayerFinished;
 
-                    videoPlayer.isLooping = true;
+                    videoPlayer.isLooping = playerSettings.looping;
 
                     block = new MaterialPropertyBlock();
                 } else {
